@@ -20,7 +20,13 @@ const gameName = new String('ishaan-singh');
 // console.log(newStringOne);
 // console.log(newStringOne.trim());
 
-const url = 'https://ishaan.com/ishaan%20singh';
-console.log(url.replace('%20', '-'))
-console.log(url.includes('ishaan'));
-console.log(gameName.split('-', 3));
+// const url = 'https://ishaan.com/ishaan%20singh';
+// console.log(url.replace('%20', '-'))
+// console.log(url.includes('ishaan'));
+// console.log(gameName.split('-', 3));
+const str1 = "2+ 2";
+const str2 = new String("2 + 2")
+
+console.log(eval(str1));
+console.log(eval(str2));
+console.log(eval(str2.valueOf()));
