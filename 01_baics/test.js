@@ -24,3 +24,8 @@
 // myObj2.name = 'singh';
 // // console.table([myObj.name, myObj2.name])
 // console.log(myObj.name, myObj2.name)
+
+let name = "ishaan";
+let lastName = new String("singh");
+let fullName = String("Ishaan Singh")
+console.log(typeof name, typeof lastName, typeof fullName)
